@@ -34,5 +34,9 @@ public class UserController {
         }
         return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
     }
+
+    public void myName() {
+        System.out.println("Hari krishna");
+    }
 }
 
